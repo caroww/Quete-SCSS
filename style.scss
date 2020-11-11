@@ -1,0 +1,37 @@
+@mixin ring($borderradius,$size,$color,$x, $y){
+  border-radius:$borderradius;
+  width:$size;
+  height:$size;
+  border:$size/10 solid $color;
+  box-shadow: $size/50 $size/50 $size/50 darken($color, 10%), inset $size/50 $size/50 $size/50 darken($color, 10%);
+   
+}
+
+.ring1{
+  &:before, &:after{
+  content: "";
+  display: block;
+  margin: 0 10px;
+  @include ring(50%,50px,red,2px, 2px);
+  } 
+}
+
+.ring2{
+  @include ring(50%,150px,orange,2px, 2px);
+} 
+
+.row{
+  margin:50px;
+  h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     margin:10px;
+   }
+}
+
+@for $i from 1 through 6 {
+.ring3:nth-of-type(#{$i}) {
+  @include ring(50%,35px * (1+($i/3)),grey,2px,2px);
+  margin-right: -((35px * (1+($i/2)))*0.35);
+  float:left;
+}
+}

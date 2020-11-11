@@ -1,0 +1,86 @@
+.ring1:before, .ring1:after {
+  content: "";
+  display: block;
+  margin: 0 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 5px solid red;
+  box-shadow: 1px 1px 1px #cc0000, inset 1px 1px 1px #cc0000;
+}
+
+.ring2 {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 15px solid orange;
+  box-shadow: 3px 3px 3px #cc8400, inset 3px 3px 3px #cc8400;
+}
+
+.row {
+  margin: 50px;
+}
+.row h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px;
+}
+
+.ring3:nth-of-type(1) {
+  border-radius: 50%;
+  width: 46.6666666667px;
+  height: 46.6666666667px;
+  border: 4.6666666667px solid grey;
+  box-shadow: 0.9333333333px 0.9333333333px 0.9333333333px #676767, inset 0.9333333333px 0.9333333333px 0.9333333333px #676767;
+  margin-right: -18.375px;
+  float: left;
+}
+
+.ring3:nth-of-type(2) {
+  border-radius: 50%;
+  width: 58.3333333333px;
+  height: 58.3333333333px;
+  border: 5.8333333333px solid grey;
+  box-shadow: 1.1666666667px 1.1666666667px 1.1666666667px #676767, inset 1.1666666667px 1.1666666667px 1.1666666667px #676767;
+  margin-right: -24.5px;
+  float: left;
+}
+
+.ring3:nth-of-type(3) {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border: 7px solid grey;
+  box-shadow: 1.4px 1.4px 1.4px #676767, inset 1.4px 1.4px 1.4px #676767;
+  margin-right: -30.625px;
+  float: left;
+}
+
+.ring3:nth-of-type(4) {
+  border-radius: 50%;
+  width: 81.6666666667px;
+  height: 81.6666666667px;
+  border: 8.1666666667px solid grey;
+  box-shadow: 1.6333333333px 1.6333333333px 1.6333333333px #676767, inset 1.6333333333px 1.6333333333px 1.6333333333px #676767;
+  margin-right: -36.75px;
+  float: left;
+}
+
+.ring3:nth-of-type(5) {
+  border-radius: 50%;
+  width: 93.3333333333px;
+  height: 93.3333333333px;
+  border: 9.3333333333px solid grey;
+  box-shadow: 1.8666666667px 1.8666666667px 1.8666666667px #676767, inset 1.8666666667px 1.8666666667px 1.8666666667px #676767;
+  margin-right: -42.875px;
+  float: left;
+}
+
+.ring3:nth-of-type(6) {
+  border-radius: 50%;
+  width: 105px;
+  height: 105px;
+  border: 10.5px solid grey;
+  box-shadow: 2.1px 2.1px 2.1px #676767, inset 2.1px 2.1px 2.1px #676767;
+  margin-right: -49px;
+  float: left;
+}
